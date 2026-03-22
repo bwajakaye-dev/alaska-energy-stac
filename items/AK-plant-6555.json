@@ -1,0 +1,80 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-6555",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -155.594997,
+      62.95699
+    ]
+  },
+  "bbox": [
+    -155.594997,
+    62.95699,
+    -155.594997,
+    62.95699
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "McGrath",
+    "description": "McGrath operated by McGrath Light & Power Co",
+    "plant:eia_plant_code": "6555",
+    "plant:utility_id": "12119",
+    "plant:utility_name": "McGrath Light & Power Co",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC",
+    "plant:capacity_mw": 1.6,
+    "plant:generator_count": 4,
+    "plant:has_storage": false,
+    "plant:water_source": "Glycol Closed System",
+    "plant:grid_voltage_kv": 2.4,
+    "admin:street": "10 Mcguire Dr.",
+    "admin:city": "McGrath",
+    "admin:county": "Yukon Koyukuk",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99627",
+    "admin:aea_region_9": "Interior",
+    "admin:aea_region_3": "Rural Remote",
+    "plant:capacity_diesel_mw": 1.6
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6555.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6555.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

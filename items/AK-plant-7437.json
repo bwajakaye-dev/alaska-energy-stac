@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-7437",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -156.8736,
+      64.74417
+    ]
+  },
+  "bbox": [
+    -156.8736,
+    64.74417,
+    -156.8736,
+    64.74417
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Galena Electric Utility",
+    "description": "Galena Electric Utility operated by Galena Electric Utility",
+    "plant:eia_plant_code": "7437",
+    "plant:utility_id": "6915",
+    "plant:utility_name": "Galena Electric Utility",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC",
+    "plant:capacity_mw": 3.1,
+    "plant:generator_count": 5,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 4.16,
+    "admin:street": "100 Antoski Drive",
+    "admin:city": "Galena",
+    "admin:county": "Yukon Koyukuk",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99741",
+    "admin:aea_region_9": "Interior",
+    "admin:aea_region_3": "Rural Remote",
+    "plant:capacity_diesel_mw": 3.1
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-7437.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-7437.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

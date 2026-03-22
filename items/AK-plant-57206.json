@@ -1,0 +1,80 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-57206",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -150.997222,
+      60.499444
+    ]
+  },
+  "bbox": [
+    -150.997222,
+    60.499444,
+    -150.997222,
+    60.499444
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Soldotna",
+    "description": "Soldotna operated by Homer Electric Assn Inc",
+    "plant:eia_plant_code": "57206",
+    "plant:utility_id": "19558",
+    "plant:utility_name": "Homer Electric Assn Inc",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "natural_gas",
+    "plant:technology": "GT, BA",
+    "plant:capacity_mw": 96.5,
+    "plant:generator_count": 2,
+    "plant:has_storage": true,
+    "plant:grid_voltage_kv": 115.0,
+    "admin:street": "41925 Sterling Highway",
+    "admin:city": "Soldotna",
+    "admin:county": "Kenai Peninsula",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99669",
+    "admin:aea_region_9": "Railbelt",
+    "admin:aea_region_3": "Railbelt",
+    "plant:capacity_natural_gas_mw": 50.0,
+    "plant:capacity_battery_mw": 46.5
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-57206.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-57206.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

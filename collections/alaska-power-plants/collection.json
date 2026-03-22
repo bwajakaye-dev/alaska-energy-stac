@@ -1,0 +1,85 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Collection",
+  "id": "alaska-power-plants",
+  "title": "Alaska power plants",
+  "description": "All operable electric generating plants in Alaska with nameplate capacity >= 1 MW. EIA-860 2024 data. Organised by AEA energy region (3-region and 9-region systems).",
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "U.S. Energy Information Administration",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.eia.gov/electricity/data/eia860/"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -171.7124,
+          53.8585,
+          -131.3561,
+          71.292
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "summaries": {
+    "plant:fuel_type": [
+      "battery",
+      "biomass",
+      "coal",
+      "diesel",
+      "hydro",
+      "natural_gas",
+      "other",
+      "solar",
+      "wind"
+    ],
+    "admin:aea_region_3": [
+      "Coastal",
+      "Railbelt",
+      "Rural Remote"
+    ],
+    "admin:aea_region_9": [
+      "Aleutians",
+      "Bristol Bay",
+      "Copper River/Chugach",
+      "Interior",
+      "Kodiak",
+      "Lower Yukon-Kuskokwim",
+      "North Slope",
+      "Northwest Arctic",
+      "Railbelt",
+      "Southeast"
+    ]
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-423",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -132.821435,
+      55.204937
+    ]
+  },
+  "bbox": [
+    -132.821435,
+    55.204937,
+    -132.821435,
+    55.204937
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Hydaburg",
+    "description": "Hydaburg operated by Alaska Power and Telephone Co",
+    "plant:eia_plant_code": "423",
+    "plant:utility_id": "219",
+    "plant:utility_name": "Alaska Power and Telephone Co",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC",
+    "plant:capacity_mw": 0.7,
+    "plant:generator_count": 2,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 2.4,
+    "admin:street": "105 Hyda Street",
+    "admin:city": "Prince of Wales",
+    "admin:county": "Prince of Wales Ketchikan",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99922",
+    "admin:aea_region_9": "Southeast",
+    "admin:aea_region_3": "Coastal",
+    "plant:capacity_diesel_mw": 0.7
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-423.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-423.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

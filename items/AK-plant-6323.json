@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-6323",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -160.428592,
+      66.973889
+    ]
+  },
+  "bbox": [
+    -160.428592,
+    66.973889,
+    -160.428592,
+    66.973889
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Kiana",
+    "description": "Kiana operated by Alaska Village Elec Coop, Inc",
+    "plant:eia_plant_code": "6323",
+    "plant:utility_id": "221",
+    "plant:utility_name": "Alaska Village Elec Coop, Inc",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC",
+    "plant:capacity_mw": 1.3,
+    "plant:generator_count": 3,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 12.5,
+    "admin:street": "01 Utility Drive",
+    "admin:city": "Kiana",
+    "admin:county": "Northwest Arctic",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99749",
+    "admin:aea_region_9": "Northwest Arctic",
+    "admin:aea_region_3": "Rural Remote",
+    "plant:capacity_diesel_mw": 1.3
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6323.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6323.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

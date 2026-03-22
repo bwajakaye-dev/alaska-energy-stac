@@ -1,0 +1,81 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-50711",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -147.822075,
+      64.854171
+    ]
+  },
+  "bbox": [
+    -147.822075,
+    64.854171,
+    -147.822075,
+    64.854171
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "University of Alaska Fairbanks",
+    "description": "University of Alaska Fairbanks operated by University of Alaska",
+    "plant:eia_plant_code": "50711",
+    "plant:utility_id": "19511",
+    "plant:utility_name": "University of Alaska",
+    "plant:sector": "Commercial CHP",
+    "plant:regulatory_status": "NR",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "coal",
+    "plant:technology": "ST, IC",
+    "plant:capacity_mw": 39.6,
+    "plant:generator_count": 5,
+    "plant:has_storage": false,
+    "plant:water_source": "Municipality",
+    "plant:grid_voltage_kv": 69.0,
+    "admin:street": "802 Alumni drive",
+    "admin:city": "Fairbanks",
+    "admin:county": "Fairbanks North Star",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99775",
+    "admin:aea_region_9": "Railbelt",
+    "admin:aea_region_3": "Railbelt",
+    "plant:capacity_coal_mw": 30.0,
+    "plant:capacity_diesel_mw": 9.6
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-50711.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-50711.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

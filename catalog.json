@@ -1,0 +1,25 @@
+{
+  "stac_version": "1.1.0",
+  "type": "Catalog",
+  "id": "alaska-energy-catalog",
+  "title": "Alaska energy production catalog",
+  "description": "STAC catalog of electricity production plants in Alaska. Source: EIA Form EIA-860 Annual Electric Generator Report, 2024 data.",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

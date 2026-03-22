@@ -1,0 +1,80 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-7174",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -145.253052,
+      66.566287
+    ]
+  },
+  "bbox": [
+    -145.253052,
+    66.566287,
+    -145.253052,
+    66.566287
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Gwitchyaa Zhee",
+    "description": "Gwitchyaa Zhee operated by Gwitchyaa Zhee Utility Co",
+    "plant:eia_plant_code": "7174",
+    "plant:utility_id": "7833",
+    "plant:utility_name": "Gwitchyaa Zhee Utility Co",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC",
+    "plant:capacity_mw": 2.8,
+    "plant:generator_count": 4,
+    "plant:has_storage": false,
+    "plant:water_source": "Yukon River",
+    "plant:grid_voltage_kv": 4.16,
+    "admin:street": "East 4th Ave",
+    "admin:city": "Fort Yukon",
+    "admin:county": "Yukon Koyukuk",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99740",
+    "admin:aea_region_9": "Interior",
+    "admin:aea_region_3": "Rural Remote",
+    "plant:capacity_diesel_mw": 2.8
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-7174.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-7174.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

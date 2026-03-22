@@ -1,0 +1,80 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-6581",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -131.517758,
+      55.381402
+    ]
+  },
+  "bbox": [
+    -131.517758,
+    55.381402,
+    -131.517758,
+    55.381402
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Silvis",
+    "description": "Silvis operated by Ketchikan Public Utilities",
+    "plant:eia_plant_code": "6581",
+    "plant:utility_id": "10210",
+    "plant:utility_name": "Ketchikan Public Utilities",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "hydro",
+    "plant:technology": "HY",
+    "plant:capacity_mw": 2.1,
+    "plant:generator_count": 1,
+    "plant:has_storage": false,
+    "plant:water_source": "Upper Silvis Lake",
+    "plant:grid_voltage_kv": 34.5,
+    "admin:street": "(unnamed mtn road, remote)",
+    "admin:city": "Ketchikan",
+    "admin:county": "Ketchikan Gateway",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99901",
+    "admin:aea_region_9": "Southeast",
+    "admin:aea_region_3": "Coastal",
+    "plant:capacity_hydro_mw": 2.1
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6581.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6581.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

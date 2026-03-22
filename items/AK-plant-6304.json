@@ -1,0 +1,82 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-6304",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -162.556944,
+      66.837778
+    ]
+  },
+  "bbox": [
+    -162.556944,
+    66.837778,
+    -162.556944,
+    66.837778
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Kotzebue Hybrid",
+    "description": "Kotzebue Hybrid operated by Kotzebue Electric Assn Inc",
+    "plant:eia_plant_code": "6304",
+    "plant:utility_id": "10451",
+    "plant:utility_name": "Kotzebue Electric Assn Inc",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC, WT, BA, PV",
+    "plant:capacity_mw": 18.0,
+    "plant:generator_count": 35,
+    "plant:has_storage": true,
+    "plant:grid_voltage_kv": 7.2,
+    "admin:street": "245 4th Street",
+    "admin:city": "Kotzebue",
+    "admin:county": "NORTHWEST ARCTIC",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99752",
+    "admin:aea_region_9": "Northwest Arctic",
+    "admin:aea_region_3": "Rural Remote",
+    "plant:capacity_diesel_mw": 11.8,
+    "plant:capacity_wind_mw": 3.3,
+    "plant:capacity_battery_mw": 1.2,
+    "plant:capacity_solar_mw": 1.7
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6304.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6304.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

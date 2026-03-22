@@ -1,0 +1,81 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-91",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -132.957091,
+      56.81104
+    ]
+  },
+  "bbox": [
+    -132.957091,
+    56.81104,
+    -132.957091,
+    56.81104
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Petersburg",
+    "description": "Petersburg operated by Petersburg Borough - (AK)",
+    "plant:eia_plant_code": "91",
+    "plant:utility_id": "14856",
+    "plant:utility_name": "Petersburg Borough - (AK)",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "HY, IC",
+    "plant:capacity_mw": 14.7,
+    "plant:generator_count": 8,
+    "plant:has_storage": false,
+    "plant:water_source": "Crystal Lake",
+    "plant:grid_voltage_kv": 24.9,
+    "admin:street": "11 S. Nordic Drive",
+    "admin:city": "Petersburg",
+    "admin:county": "Wrangell Petersburg",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99833",
+    "admin:aea_region_9": "Southeast",
+    "admin:aea_region_3": "Coastal",
+    "plant:capacity_hydro_mw": 1.8,
+    "plant:capacity_diesel_mw": 12.9
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-91.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-91.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

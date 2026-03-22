@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-6292",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -151.3874,
+      60.6935
+    ]
+  },
+  "bbox": [
+    -151.3874,
+    60.6935,
+    -151.3874,
+    60.6935
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Bernice Lake",
+    "description": "Bernice Lake operated by Homer Electric Assn Inc",
+    "plant:eia_plant_code": "6292",
+    "plant:utility_id": "19558",
+    "plant:utility_name": "Homer Electric Assn Inc",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "natural_gas",
+    "plant:technology": "GT",
+    "plant:capacity_mw": 76.7,
+    "plant:generator_count": 3,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 69.0,
+    "admin:street": "53318 Chevron Refinery Road",
+    "admin:city": "Nikiski",
+    "admin:county": "Kenai Peninsula",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99635",
+    "admin:aea_region_9": "Railbelt",
+    "admin:aea_region_3": "Railbelt",
+    "plant:capacity_natural_gas_mw": 76.7
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6292.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6292.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

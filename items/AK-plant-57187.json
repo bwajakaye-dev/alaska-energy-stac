@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-57187",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -152.4406,
+      57.7869
+    ]
+  },
+  "bbox": [
+    -152.4406,
+    57.7869,
+    -152.4406,
+    57.7869
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Pillar Mountain Wind Project Microgrid",
+    "description": "Pillar Mountain Wind Project Microgrid operated by Kodiak Electric Assn Inc",
+    "plant:eia_plant_code": "57187",
+    "plant:utility_id": "10433",
+    "plant:utility_name": "Kodiak Electric Assn Inc",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "wind",
+    "plant:technology": "WT",
+    "plant:capacity_mw": 9.0,
+    "plant:generator_count": 2,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 69.0,
+    "admin:street": "Pillar Mountain",
+    "admin:city": "Kodiak",
+    "admin:county": "Kodiak Island",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99615",
+    "admin:aea_region_9": "Kodiak",
+    "admin:aea_region_3": "Coastal",
+    "plant:capacity_wind_mw": 9.0
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-57187.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-57187.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

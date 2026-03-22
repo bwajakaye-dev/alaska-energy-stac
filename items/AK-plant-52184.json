@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-52184",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -151.3815,
+      60.677
+    ]
+  },
+  "bbox": [
+    -151.3815,
+    60.677,
+    -151.3815,
+    60.677
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Tesoro Kenai Cogeneration Plant",
+    "description": "Tesoro Kenai Cogeneration Plant operated by Tesoro Alaska Company LLC",
+    "plant:eia_plant_code": "52184",
+    "plant:utility_id": "18617",
+    "plant:utility_name": "Tesoro Alaska Company LLC",
+    "plant:sector": "Industrial CHP",
+    "plant:regulatory_status": "NR",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "natural_gas",
+    "plant:technology": "GT",
+    "plant:capacity_mw": 8.6,
+    "plant:generator_count": 2,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 25.0,
+    "admin:street": "54741 Tesoro Road",
+    "admin:city": "Kenai",
+    "admin:county": "Kenai Peninsula",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99611",
+    "admin:aea_region_9": "Railbelt",
+    "admin:aea_region_3": "Railbelt",
+    "plant:capacity_natural_gas_mw": 8.6
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-52184.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-52184.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

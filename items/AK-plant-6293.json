@@ -1,0 +1,75 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-6293",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -149.911038,
+      61.168972
+    ]
+  },
+  "bbox": [
+    -149.911038,
+    61.168972,
+    -149.911038,
+    61.168972
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "International",
+    "description": "International operated by Chugach Electric Assn Inc",
+    "plant:eia_plant_code": "6293",
+    "plant:utility_id": "3522",
+    "plant:utility_name": "Chugach Electric Assn Inc",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "natural_gas",
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 138.0,
+    "admin:street": "5601 Electron Dr.",
+    "admin:city": "Anchorage",
+    "admin:county": "Anchorage",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99518",
+    "admin:aea_region_9": "Railbelt",
+    "admin:aea_region_3": "Railbelt"
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6293.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-6293.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

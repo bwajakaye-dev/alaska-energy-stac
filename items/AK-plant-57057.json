@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-57057",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -161.910647,
+      59.747436
+    ]
+  },
+  "bbox": [
+    -161.910647,
+    59.747436,
+    -161.910647,
+    59.747436
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "Quinhagak",
+    "description": "Quinhagak operated by Alaska Village Elec Coop, Inc",
+    "plant:eia_plant_code": "57057",
+    "plant:utility_id": "221",
+    "plant:utility_name": "Alaska Village Elec Coop, Inc",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC",
+    "plant:capacity_mw": 1.3,
+    "plant:generator_count": 3,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 13.47,
+    "admin:street": "PO Box 90",
+    "admin:city": "Quinhagak",
+    "admin:county": "Bethel",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99655",
+    "admin:aea_region_9": "Lower Yukon-Kuskokwim",
+    "admin:aea_region_3": "Rural Remote",
+    "plant:capacity_diesel_mw": 1.3
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-57057.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-57057.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "type": "Feature",
+  "id": "AK-plant-7487",
+  "collection": "alaska-power-plants",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -151.741017,
+      68.13795
+    ]
+  },
+  "bbox": [
+    -151.741017,
+    68.13795,
+    -151.741017,
+    68.13795
+  ],
+  "properties": {
+    "datetime": "2024-01-01T00:00:00Z",
+    "title": "NSB Anaktuvuk Pass",
+    "description": "NSB Anaktuvuk Pass operated by North Slope Borough Power & Light",
+    "plant:eia_plant_code": "7487",
+    "plant:utility_id": "26616",
+    "plant:utility_name": "North Slope Borough Power & Light",
+    "plant:sector": "Electric Utility",
+    "plant:regulatory_status": "RE",
+    "plant:report_year": 2024,
+    "plant:fuel_type": "diesel",
+    "plant:technology": "IC",
+    "plant:capacity_mw": 2.7,
+    "plant:generator_count": 5,
+    "plant:has_storage": false,
+    "plant:grid_voltage_kv": 4.16,
+    "admin:street": "1024 Summer",
+    "admin:city": "Anaktuvuk Pass",
+    "admin:county": "North Slope",
+    "admin:state": "Alaska",
+    "admin:state_abbr": "AK",
+    "admin:zip": "99721",
+    "admin:aea_region_9": "North Slope",
+    "admin:aea_region_3": "Rural Remote",
+    "plant:capacity_diesel_mw": 2.7
+  },
+  "assets": {
+    "plant_record": {
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-7487.json",
+      "type": "application/geo+json",
+      "title": "This STAC Item",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-7487.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "root",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "type": "application/json",
+      "title": "Alaska power plants"
+    }
+  ]
+}
