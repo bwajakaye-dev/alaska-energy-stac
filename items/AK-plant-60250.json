@@ -47,7 +47,7 @@
   },
   "assets": {
     "plant_record": {
-      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-60250.json",
+      "href": "https://bwajakaye-dev.github.io/alaska-energy-stac//items/AK-plant-60250.json",
       "type": "application/geo+json",
       "title": "This STAC Item",
       "roles": [
@@ -58,22 +58,22 @@
   "links": [
     {
       "rel": "self",
-      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/items/AK-plant-60250.json",
+      "href": "https://bwajakaye-dev.github.io/alaska-energy-stac//items/AK-plant-60250.json",
       "type": "application/geo+json"
     },
     {
       "rel": "root",
-      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/catalog.json",
+      "href": "https://bwajakaye-dev.github.io/alaska-energy-stac//catalog.json",
       "type": "application/json"
     },
     {
       "rel": "parent",
-      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "href": "https://bwajakaye-dev.github.io/alaska-energy-stac//collections/alaska-power-plants/collection.json",
       "type": "application/json"
     },
     {
       "rel": "collection",
-      "href": "https://YOUR-S3-BUCKET.s3.amazonaws.com/collections/alaska-power-plants/collection.json",
+      "href": "https://bwajakaye-dev.github.io/alaska-energy-stac//collections/alaska-power-plants/collection.json",
       "type": "application/json",
       "title": "Alaska power plants"
     }
